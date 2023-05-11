@@ -1,0 +1,87 @@
+git remote add origin https://github.com/ViniciusCarv28/Primeiros-Passos-HTML.git
+git branch -M main
+git push -u origin main<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <a><h2>Índice</h2></i></strong></body></ancor></html></a>
+
+    <li><a href="#">História dos computadores</a></li>
+    <li><a href="#">O que são <i>Clients</i>?</a></li>
+    <li><a href="#">O que são <i>Servers</i>?</a></li>
+    <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
+    
+
+    </ul>
+
+<strong><u><h2>História dos Computadores</h2></u></strong>
+<p>
+    O primeiro computador foi criado entre 1943 e 1946 e se chamava Eletronic Numerical Integrator and Computer — ENIAC.
+    Mas Existiu outras Formas de Computadores manuais como o ABACCO com uma estrutura mecanizada para efetuar cálculos.
+    Um fator de grande importância é a memória, algo que não tinha na época do ENIAC.
+    Cerca de 10 anos depois, foi lançado o RAMAX 305, uma máquina de armazenamento em disco feito pela IBM.
+    No começo, só empresas e certas instituições faziam uso de um computador e, com o passar do tempo, essa tecnologia seria acessada por todos.
+    Por volta de 1980, a IBM liderava o ramo da computação com o desenvolvimento do sistema operacional 86-DOS e a Microsoft começava a desenvolver suas ideias e ofereceu o seu próprio sistema operacional para a IBM. Ao fechar o acordo, Bill Gates comprou o 86-DOS 1.10 da IBM e o sistema operacional acabou sendo propriedade exclusiva da Microsoft.
+    A Microsoft acabou vendendo também o seu sistema operacional para outras empresas, garantindo assim a evolução dos computadores para as pessoas.
+    Em 1993, surgiu a World Wide Web, mais conhecida como WWW. Além disso, o celular começava a surgir para atender as necessidades das empresas. Do ENIAC para o primeiro smartphone, passaram-se cerca de 70 anos e a história não para por aí.
+    os dias atuais, vemos, por exemplo, o quanto a tecnologia em nuvem tem agregado na rotina de pessoas e empresas, ainda mais em uma rotina home office como temos vivenciado.
+    Ou seja, os avanços tecnológicos são essenciais em nosso cotidiano e só nos trazem benefícios, como praticidade, segurança e agilidade.
+    Vemos que a cada dia mais surgem novas tecnologias com melhores chances de armazenamento e velocidade.
+</p>
+<strong><u><h2>O que são Clients ?</h2></u></strong>
+<p>
+   <i> <blockquote><mark>filosofia Client/Sever vêm da idéia de deixar para o servidor todo o processamento, retirando assim da máquina do cliente essa tarefa que muitas vezes é tão pesada./</blockquote></i>
+    uma Arquiterura onde o Client é o usuario humano que efetua uma requisiçao ao servidor aguardando um Feedback das informaçoes contidas no banco de dados do servidor.
+    o modelo client x server utilizado em aplicaçoes da Web ou Softwares onde a comunicaçao entre procura e fornecimento de informacoes imediatos por conexao TCP/IP protocolo de Rede e Internet.
+    O client é quem obtém informaçoes processadas pelo servidor.
+</p>
+<center><img src="https://www.devmedia.com.br/imagens/02-07-2007pic01.JPG"/></center>
+
+<strong><u><h2>O que são Servers?</h2></u></strong>
+<p>
+    Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.
+    O termo servidor também define um recurso dentro de um sistema computacional maior, capaz de processar aplicações, prestar serviços e armazenar dados. Esses sistemas podem ser físicos ou virtuais, estarem instalados local ou remotamente. Normalmente, são escaláveis e possuem alto poder de processamento.
+    Capazes de executar um conjunto específico de programas ou protocolos para fornecer serviços para outras máquinas ou clientes, servidores são equipamentos dedicados a executar aplicações e serviços dentro de uma rede LAN ou WAN.
+    Dentro de uma infraestrutura de TI, um servidor e seus clientes (computadores, tablets e outros dispositivos) formam uma arquitetura conhecida como “cliente/servidor”, que fornece sistemas de roteamento e acesso centralizado de informações, recursos e dados armazenados dentro de uma rede.
+    Como definição rudimentar, podemos considerar um servidor como qualquer solução tecnológica com capacidade para executar programas de forma centralizada, além de armazenar e compartilhar arquivos, administrar filas de impressão e prestar algum tipo de serviço para vários computadores, através de uma rede local ou remota.
+
+    <center><img src="https://www.controle.net/novo/assets/img/faq/arquitetura-cliente-servidor-faq-controle-net.webp"/></center>
+</p>
+
+<mark><strong><u><h2>Como é uma Estrutura Básica de um HTML ?</h2></u></strong></mark>
+<p>
+ A estrutura básica inicial do <strong>(HTML)</strong> 
+ Começa com DOCTYPE que estabele qual o Tipo de documento para o navegador reconhecer sua leitura
+ e a configuraçao eficiente para a qualidade da visualizaçao.:</p>
+ 
+<strong><h2>(HEAD)</h2></strong> 
+<p>
+ ou Cabeça , Cabeçalho ontém informações que não são transpostas
+ visivelmente para o usuário leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos,
+ aplicação de lógica de programação de scripts
+e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento.
+</p>
+
+ <strong><h2>(BODY)</h2></strong>
+Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento.
+ É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc).
+ Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo do documento é delimitado pelo par de tags.
+Este é o preceito básico que deve estar muito bem claro para você: onde as marcações se aplicam, e quais são os resultados deste modelo. Por exemplo: se vocês deseja informar conteúdo textual para saída legível ao usuário do seu sistema web,
+ esta marcação deverá obrigatoriamente estar no bloco do corpo da página. Ainda: para definir qual o tipo de codificação da página (uma meta informação do documento),
+ esta deve obrigatoriamente estar marcada no cabeçalho do mesmo documento.
+Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé,
+conteúdo principal, etc. 
+</p>
+
+</body>
+
+
+</html>
